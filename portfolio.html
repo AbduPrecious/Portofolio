@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdurezak Berisso--Web developer</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="Photo"
+                    src="image/profile.jpg" />
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <h1>Hi There,I'm <span>Abdurezak Berisso</span> <br>From Ethiopia</h1>
+                <p class="p">Web Developer</p>
+            </div>
+        </div>
+    </div>
+    <!--------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/pro1.png"
+                        width="200px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="para">I am Passinate Frontend Web developer , Graphics Designer And UI/UX Deisgner and currently i am 4th Year Software Engineering Student at Jimma University</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designning web App interface</li>
+                            <li><span>Web development</span><br>Web App Development</li>
+                            <li><span>Graphics Designer</span><br>Building Promotional poster</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Huawie IT Center</span><br>Designning web App interface,China</li>
+                            <li><span>E-Commerce</span><br>Web App Development</li>
+                            <li><span>Snake Game</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Software Engineering</span><br>Bsc Degree from Jimma University</li>
+                            <li><span>Machine Learning</span><br>Msc from ASTU</li>
+                            <li><span>Data Science</span><br>Msc from MIT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---services------>
+    <div id="service">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima placeat iusto ullam voluptatum
+                        perferendis natus facilis sint cupiditate architecto, mollitia vel non dicta sit qui nemo harum
+                        vero consequuntur distinctio.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima placeat iusto ullam voluptatum
+                        perferendis natus facilis sint cupiditate architecto, mollitia vel non dicta sit qui nemo harum
+                        vero consequuntur distinctio.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima placeat iusto ullam voluptatum
+                        perferendis natus facilis sint cupiditate architecto, mollitia vel non dicta sit qui nemo harum
+                        vero consequuntur distinctio.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/download.png">
+                    <div class="layer">
+                        <h3>Online Business work</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolores minus perferendis totam
+                            asperiores reiciendis consequuntur optio ad similique expedita nobis quibusdam, temporibus
+                            vero voluptatum labore, adipisci dicta magnam amet.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/OIP.png">
+                    <div class="layer">
+                        <h3>website design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolores minus perferendis totam
+                            asperiores reiciendis consequuntur optio ad similique expedita nobis quibusdam, temporibus
+                            vero voluptatum labore, adipisci dicta magnam amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+    </div>
+    <!----------contacts---------->
+    <div id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p> <i class="fa-regular fa-paper-plane"></i>abdurezakberiso@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>+251973969749</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="example@gmail.com" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-sharp fa-regular fa-copyright"></i>2025 </p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
